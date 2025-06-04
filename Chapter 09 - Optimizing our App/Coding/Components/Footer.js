@@ -1,6 +1,6 @@
 // Footer component for footer section
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const year = 2022;
   return (
     <div className="footer">
       Created By
@@ -15,7 +15,7 @@ const Footer = () => {
       <i className="fa-solid fa-copyright"></i>
       {year}
       <a
-        href="hhttps://github.com/elamaran07/Food-App-React.git"
+        href="https://github.com/elamaran07/Food-App-React.git"
         target="_blank"
         title="Food Fire Github Repository"
       >
